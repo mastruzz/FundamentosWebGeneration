@@ -1,0 +1,115 @@
+/*Estilo da pagina home*/
+body{
+    background-color: wheat;
+}
+* {box-sizing: border-box;}
+
+.texto {
+    text-align: center;
+    padding: 30px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.header  a{
+    font-family: fantasy;
+    float: center;
+    color: rgb(231, 181, 86);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.header {
+    
+    background-color:  rgb(37, 30, 30);
+    padding: 20px 10px;
+  }
+
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+.header a:hover {
+    background-color: rgb(231, 181, 86);
+    color: rgb(37, 30, 30);
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-300 {
+    width: 300px;
+    height: 300px;
+}
+
+.footer {
+    height: 40px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.pl {
+    text-align: justify;
+}
+
+.ptb-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ptb-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    background-color: rgb(37, 30, 30);
+}
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+.mr-50{
+    margin-right: 50px;
+}
+
+/* pagina de contato */
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.c-red {
+    color: rgb(37, 30, 30);
+}
