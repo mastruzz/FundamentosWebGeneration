@@ -1,8 +1,13 @@
 /*Estilo da pagina home*/
-body{
-    background-color: wheat;
+
+body {
+    background-color: #5c5c5c;
+    margin: 0px;
 }
-* {box-sizing: border-box;}
+
+* {
+    box-sizing: border-box;
+}
 
 .texto {
     text-align: center;
@@ -22,14 +27,15 @@ body{
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
 .titulo {
     text-align: center;
 }
 
-.header  a{
-    font-family: fantasy;
+.header a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float: center;
     color: rgb(231, 181, 86);
     text-align: center;
@@ -40,17 +46,19 @@ body{
     border-radius: 4px;
     margin-left: 20px;
 }
-.header {
-    
-    background-color:  rgb(37, 30, 30);
-    padding: 20px 10px;
-  }
 
+.header {
+    background-color:#222225;
+    grid-area: auto;
+    overflow: hidden;
+    padding: 20px 10px;
+}
 
 .tm-social {
     width: 50px;
     height: 50px;
-    padding: 30px;
+    margin: 20px;
+    text-decoration: none;
 }
 
 .header a:hover {
@@ -67,8 +75,27 @@ body{
     height: 300px;
 }
 
-.footer {
-    height: 40px;
+.wh-300 {
+    width: 400px;
+    height: 400px;
+}
+
+.br-10 {
+    border-radius: 4px;
+}
+
+.est-social {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(37, 30, 30);
+}
+
+.est-social *:hover {
+    background-color: rgb(37, 30, 30);
+    color: wheat;
+}
+
+.td-none {
+    text-decoration: none;
 }
 
 .mb-50 {
@@ -79,14 +106,11 @@ body{
     text-align: justify;
 }
 
-.pl {
-    text-align: justify;
-}
-
 .ptb-50 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .ptb-20 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -100,16 +124,22 @@ body{
     background-color: dodgerblue;
     color: white;
 }
-.mr-50{
+
+.mr-50 {
     margin-right: 50px;
 }
 
-/* pagina de contato */
-
-.ml-50 {
-    margin-left: 50px;
-}
-
-.c-red {
-    color: rgb(37, 30, 30);
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    /* pagina de contato */
+    .ml-50 {
+        margin-left: 50px;
+    }
+    .c-red {
+        color: rgb(37, 30, 30);
+    }
 }
