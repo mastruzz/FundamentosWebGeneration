@@ -1,7 +1,7 @@
 /*Estilo da pagina home*/
 
 body {
-    background-color: #5c5c5c;
+    background-color: #bebdbd;
     margin: 0px;
 }
 
@@ -121,7 +121,7 @@ body {
 }
 
 .header a.active {
-    background-color: dodgerblue;
+    background-color: rgb(168, 15, 5);
     color: white;
 }
 
