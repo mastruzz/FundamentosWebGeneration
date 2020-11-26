@@ -1,8 +1,11 @@
 /*Estilo da pagina home*/
+.alert{
+    background-color: #141418;
 
+}
 .botao:hover{
-    background-color: #222225;
-    text-decoration-color: grenn;
+    background-color: #141418;
+    text-decoration-color: "grenn";
 
 }
 body {
@@ -158,4 +161,17 @@ footer{
     .c-red {
         color: rgb(37, 30, 30);
     }
+}
+.jumbotron-with-background {
+    background-image: url(https://pc.warface.com/ms/data/newsx/1fc41f0078808385c1b3b9b0d4c62948.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-with-background {
+    background-image: url();
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgb(59, 59, 59), black);
 }

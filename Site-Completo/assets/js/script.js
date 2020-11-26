@@ -87,3 +87,10 @@ function mapaNormal(params) {
     mapa.style.width="500px" 
     mapa.style.height="300px"
 }
+function enviado() {
+    alert("Dúvida enviada com sucesso");
+}
+
+function goHome(){
+    
+}
